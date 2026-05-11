@@ -1,0 +1,19 @@
+<div class="auth-container">
+  <div class="auth-wrapper">
+    <app-login 
+      *ngIf="currentView === 'login'"
+      (showRegister)="showRegister()"
+      (showForgotPassword)="showForgotPassword()">
+    </app-login>
+    
+    <app-registration 
+      *ngIf="currentView === 'register'"
+      (showLogin)="showLogin()">
+    </app-registration>
+    
+    <app-forgot-password 
+      *ngIf="currentView === 'forgot'"
+      (showLogin)="showLogin()">
+    </app-forgot-password>
+  </div>
+</div>

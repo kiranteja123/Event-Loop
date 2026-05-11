@@ -1,0 +1,44 @@
+.accordion {
+    padding: 0px 0px;
+    --bs-accordion-btn-focus-box-shadow: inherit !important;
+}
+.accordion-button {
+    font-weight: 600;
+}
+.accordion-button:not(.collapsed) {
+    font-weight: 600 !important;
+    background: #5b4063 !important;
+    color: #fff !important;
+}
+.accordion-body ul {
+    list-style-type: none;
+}
+.accordion-body ul li:before {
+    /* content: "\21AA"; */
+    content: "\21D2";
+    font-weight: 800;
+    color: #5b4063;
+    margin: 0px 8px 0px 0px;
+}
+.searchFilterInput {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 50% !important;
+}
+
+@media (max-width: 1200px) { 
+    .searchFilterInput { 
+        width: 60% !important; 
+    } 
+} 
+
+@media (max-width: 1024px) { 
+    .searchFilterInput { 
+        width: 75% !important; 
+    } 
+} 
+@media (max-width: 768px) { 
+    .searchFilterInput { 
+        width: 100% !important;
+    } 
+}

@@ -1,0 +1,21 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .auth-wrapper {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .auth-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    padding: 48px 40px 32px 40px;
+    margin: 0 auto;
+  }
+  
+  
